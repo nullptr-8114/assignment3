@@ -25,11 +25,11 @@ jobs:
         with:
           context: ./app/flask-api
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-api:latest
+          tags: nullptr8114/flask-api:latest
 
       - name: Build and push Nginx image
         uses: docker/build-push-action@v5
         with:
           context: ./app/nginx
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nginx-proxy:latest
+          tags: nullptr8114/nginx-proxy:latest
