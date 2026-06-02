@@ -29,7 +29,9 @@ services:
       mysql:
         condition: service_healthy
     networks:
-      - app-network
+      app-network:
+        aliases:
+          - flask-api
 
   nginx:
     build: ./nginx
