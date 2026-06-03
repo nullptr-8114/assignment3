@@ -1,0 +1,5 @@
+Note for Evaluator: This environment was deployed on a native, bare-metal Ubuntu installation booted via an external persistent
+SSD rather than a hypervisor (VirtualBox/VMware).
+Consequently, an .ova appliance cannot be generated.
+Full architectural deployment verification, local multi-tier container execution, and cloud-native CI/CD configurations have
+been comprehensively documented via terminal runtime logs and repository screenshots.
